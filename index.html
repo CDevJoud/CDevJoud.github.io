@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Personal Portfolio Website Design | Codehal</title>
+    <title>CDEVJOUD</title>
 
     <!-- box icons -->
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
@@ -25,7 +25,7 @@
         <a href="#about">About</a>
         <a href="#projects">Projects</a>
         <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
+        <!-- <a href="#contact">Contact</a> -->
       </nav>
     </header>
 
@@ -38,13 +38,12 @@
           <h1>Joud Kandeel</h1>
           <h3>And I'm a <span class="multiple-text"></span></h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tellus nibh, molestie gravida porttitor id, tristique vitae quam. Integer orci metus, aliquet varius lacus vel, pretium dignissim lorem.
-          </p>
+            I'm a passionate developer who loves building systems from scratch. From emulators and virtual file systems to online games and scripting languages, I enjoy bringing ideas to life through code.          </p>
           <div class="social-media">
-            <a href="#"><i class="bx bxl-facebook"></i></a>
-            <a href="#"><i class="bx bxl-twitter"></i></a>
-            <a href="#"><i class="bx bxl-instagram-alt"></i></a>
-            <a href="#"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://www.facebook.com/joud.kandeel/"><i class="bx bxl-facebook"></i></a>
+            <a href="https://github.com/CDevJoud/"><i class="bx bxl-github"></i></a>
+            <a href="https://www.instagram.com/i.jk05"><i class="bx bxl-instagram-alt"></i></a>
+            <!-- <a href="#"><i class="bx bxl-linkedin"></i></a> -->
           </div>
           <a href="#" class="btn">Download CV</a>
         </div>
@@ -58,17 +57,19 @@
 
     <!-- about section design -->
     <section class="about" id="about">
-      <div class="about-img">
-        <img src="images/jj.jpg" alt="">
-      </div>
+  <div class="about-img">
+    <img src="images/jj.jpg" alt="">
+  </div>
 
-      <div class="about-content">
-        <h2 class="heading">About <span>Me</span></h2>
-        <h3>C/C++ Developer</h3>
-        <p>            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tellus nibh, molestie gravida porttitor id, tristique vitae quam. Integer orci metus, aliquet varius lacus vel, pretium dignissim lorem.        </p>
-        <a href="#" class="btn">Read More</a>
-      </div>
-    </section>
+  <div class="about-content">
+    <h2 class="heading">About <span>Me</span></h2>
+    <h3>C/C++ Developer</h3>
+    <p>
+      I recently completed high school at lundelska skola(skrapan) and am now seeking a job in software development. I have over 6 years of experience in low-level programming using C and C++, focusing on building efficient and reliable systems.
+    </p>
+    <a href="#" class="btn">Read More</a>
+  </div>
+</section>
     <!-- Projects section design -->
 
     <section class="projects" id="projects">
@@ -87,7 +88,7 @@
         </div>
 
         <div class="projects-box">
-          <h3>TUI</h3>
+          <h3>TUIPP</h3>
           <p>An Object-Oriented Text User Interface Library for building Text-based User Interface (TUI) applications. Designed to support ConsoleServerManager, it simplifies development by providing seamless tools for creating interactive and visually structured console applications with ease.</p>
           <a href="https://github.com/CDevJoud/TUIPP" class="btn">Read More</a>
         </div>
@@ -102,7 +103,7 @@
           <img src="images/TUIPP.jpg" alt="" />
           <div class="gallery-layer">
             <h4>TUIPP</h4>
-              <p>JFarm is a simple, cross-platform farming game built from scratch using SFML as the core engine library. Inspired by games like Family Farm, it lets you build your own barn, grow and harvest crops ...</p>
+              <p>Text User Interface is a C++ library I developed as a superset of my earlier project, UgrCGL. It provides a structured, object-oriented way to build text-based user interfaces in the console. TUIPP makes it easy to create...</p>
             <a href="https://github.com/CDevJoud/TUIPP" class="btn">Read More</a>
           </div>
         </div>
@@ -112,8 +113,7 @@
           <div class="gallery-layer">
             <h4>JFarm</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tellus nibh, molestie gravida porttitor id, tristique vitae quam. Integer orci metus, aliquet varius lacus vel, pretium dignissim lorem.
-            </p>
+              JFarm is a multiplayer farming game built from scratch without any engine. Players grow crops, raise animals, produce goods like milk, and trade them using in-game currency. Currently closed-source and in development.</p>
             <a href="#" class="btn">Read More</a>
           </div>
         </div>
@@ -121,11 +121,9 @@
         <div class="gallery-box">
           <img src="images/portfolio3.jpg" alt="" />
           <div class="gallery-layer">
-            <h4>UgrCGL</h4>
+            <h4>6502 Emulator</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tellus nibh, molestie gravida porttitor id, tristique vitae quam. Integer orci metus, aliquet varius lacus vel, pretium dignissim lorem.
-            </p>
-            <a href="#" class="btn">Read More</a>
+              A simple 6502 CPU emulator written in C++. It replicates the core instructions and behavior of the classic 8-bit 6502 chip, used in systems like the NES, Commodore 64, and Apple II. Designed to be clear and accurate.</p>            <a href="#" class="btn">Read More</a>
           </div>
         </div>
 
@@ -134,18 +132,15 @@
           <div class="gallery-layer">
             <h4>VFS/VirtualFileSystem</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tellus nibh, molestie gravida porttitor id, tristique vitae quam. Integer orci metus, aliquet varius lacus vel, pretium dignissim lorem.
-            </p>
+              A single-header C++ library that provides a lightweight, in-memory virtual filesystem. It allows you to mount, read, write, and manage virtual files and directories without relying on the real file system. Ideal for embedded tools, scripting environments, or sandboxed applications where file I/O needs to be ...</p>
             <a href="#" class="btn">Read More</a>
           </div>
         </div>
         <div class="gallery-box">
           <img src="images/portfolio5.jpg" alt="" />
           <div class="gallery-layer">
-            <h4>WebTracker</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tellus nibh, molestie gravida porttitor id, tristique vitae quam. Integer orci metus, aliquet varius lacus vel, pretium dignissim lorem.
-            </p>
+            <h4>Palmyra</h4>
+          <p>A highly optimized MC server lib written in modern C++, designed to fully utilize all hardware components for maximum performance. AI calculations for mobs run on the GPU, while the anti-cheat system leverages CUDA for enhanced efficiency...</p>
             <a href="#" class="btn">Read More</a>
           </div>
         </div>
@@ -153,17 +148,16 @@
         <div class="gallery-box">
           <img src="images/portfolio6.jpg" alt="" />
           <div class="gallery-layer">
-            <h4>IDK</h4>
+            <h4>JPL</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tellus nibh, molestie gravida porttitor id, tristique vitae quam. Integer orci metus, aliquet varius lacus vel, pretium dignissim lorem.
-            </p>
+              JPL is a simple, custom scripting language I'm developing to integrate dynamic scripting capabilities into JFarm. It’s designed for flexibility, ease of use, and future modding support.            </p>
             <a href="#" class="btn">Read More</a>
           </div>
         </div>
       </div>
     </section>
     <!-- contact section design -->
-    <section class="contact" id="contact">
+    <!-- <section class="contact" id="contact">
       <h2 class="heading">Contact <span>Me!</span></h2>
       <form action="#">
         <div class="input-box">
@@ -177,7 +171,7 @@
         <textarea name="" cols="30" rows="10" placeholder="Your Message"></textarea>
         <input type="submit" value="Send Message" class="btn">
       </form>
-    </section>
+    </section> -->
     <!-- footer design -->
     <footer class="footer">
       <div class="footer-text">
